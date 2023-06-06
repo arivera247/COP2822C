@@ -11,35 +11,39 @@
    Supporting Files: none
 
 */
-body {
-background-color: black;
-color: white;
-font-family: Century Gothic, sans-serif;
+body { /*This area defines styling for all body elements*/
+background-color: black; /*Sets background color to black*/
+color: white; /*Sets body text to white.*/
+font-family: Century Gothic, sans-serif; /*Sets font used to Century Gothic. If this font is not available, any sans-serif font can be used instead.*/
 }
 
-header h1 {
-color: yellow;
-font-family: "Courier New", Courier, monospace;
-font-size: 28px;
-letter-spacing: 20px;
-text-align: center;
+header h1 { /*Sets styling hot all h1 objects within the header element.*/
+color: yellow; /*Sets font color to yellow.*/
+font-family: "Courier New", Courier, monospace; /*Sets font to Courier New. If that font is not available, Courier, followed by any mono-spaced font can be used.*/
+font-size: 28px; /*Sets the font size to be 28 pixels large.*/
+letter-spacing: 20px; /*Sets the kerning to be 20 pixels wide.*/
+text-align: center; /*Aligns the text to be center justified.*/
 }
 
-article h2 {
-font-size: 24px;
-font-weight: normal;
-letter-spacing: 5px;
+article h2 { /*Sets all styling for all h2 objects within article elements.*/
+font-size: 24px; /*Sets all font to be 24 pixels large.*/
+font-weight: normal; /*Sets the font weight to be normal.*/
+letter-spacing: 5px; /*Sets the kerning to be 5 pixels wide.*/
 }
 
-article {
-text-align: justify;
+article { /*Sets styling for all article elements.*/
+text-align: justify; /*Sets all text to be justified.*/
 }
 
-.keyword strong {
-color: yellow;
-font-weight: normal;
+.keyword strong { /*Sets styling for all strong elements with the "keyword" class. */
+color: yellow; /*Sets the font color to yellow.*/
+font-weight: normal; /*Sets the font weight to be normal.*/
 }
 
-footer p{
-text-align: center;
+footer p{ /*Sets all styling for all paragraph objects within the footer element.*/
+text-align: center; /*Aligns font to be center justified.*/
+}
+
+.inline-image[usemap] { /*Sets styling for all inline images using the usemap attribute. */
+border: 0px; /*Sets the border thickness to zero pixels so it cannot be seen.*/
 }
