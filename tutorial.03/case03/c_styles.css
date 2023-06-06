@@ -34,3 +34,8 @@ letter-spacing: 5px;
 article {
 text-align: justify;
 }
+
+.keyword strong {
+color: yellow;
+font-weight: normal;
+}
