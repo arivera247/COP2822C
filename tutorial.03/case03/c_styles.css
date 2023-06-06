@@ -39,3 +39,7 @@ text-align: justify;
 color: yellow;
 font-weight: normal;
 }
+
+footer p{
+text-align: center;
+}
