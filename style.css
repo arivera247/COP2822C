@@ -1,0 +1,17 @@
+/*
+Author: Alex Rivera
+Title: My First Stylesheet
+*/
+
+body{
+color: #ffffff; /*Sets the color to a Valencia College red.*/
+background-color: #bf311a; /*Sets the font color to a Valencia College yellow.*/
+}
+
+article h1 { /*Sets styling hot all h1 objects within the header element.*/
+font-family: "Calibri", sans-serif; /*Sets font to Calibri. If that font is not available any sans-serif font can be used.*/
+font-size: 30px; /*Sets the font size to be 28 pixels large.*/
+letter-spacing: 3px; /*Sets the kerning to be 20 pixels wide.*/
+text-align: center; /*Aligns the text to be center justified.*/
+font-weight: bold;
+}
