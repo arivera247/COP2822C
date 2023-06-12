@@ -45,3 +45,12 @@ nav ul {
     margin-left: 1em;
     margin-bottom: 1.2em;
 }
+
+nav a {
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
+
+nav a:hover {
+    color: white;
+}
