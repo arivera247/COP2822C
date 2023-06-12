@@ -37,3 +37,11 @@ nav {
     background-color: rgb(51, 51, 51);
 }
 
+nav ul {
+    font-family: Century Gothic, sans-serif;
+    font-size: 0.7em;
+    list-style: none;
+    line-height: 1.4em;
+    margin-left: 1em;
+    margin-bottom: 1.2em;
+}
