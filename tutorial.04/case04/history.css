@@ -54,3 +54,10 @@ nav a {
 nav a:hover {
     color: white;
 }
+
+#speech {
+    background-color: rgb(212, 212, 212);
+    width: 40em;
+    float: left;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
