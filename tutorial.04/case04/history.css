@@ -91,3 +91,11 @@ nav a:hover {
 #speech p:first-of-type:first-line {
     text-transform: uppercase;
     }
+
+    #speech img{
+        display: inline-block;
+        margin-right: none;
+        float: right;
+        height: 7em;
+        shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        }
