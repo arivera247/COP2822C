@@ -87,3 +87,7 @@ nav a:hover {
     border-right: 0.002em solid black;
     border-bottom: 0.002em solid black;
     }
+
+#speech p:first-of-type:first-line {
+    text-transform: uppercase;
+    }
