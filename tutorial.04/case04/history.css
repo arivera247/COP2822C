@@ -12,31 +12,37 @@
 
 */
 
+/*This code applies a block style to the header, section and navigation lists of the document.*/
 header, section, nav {
     display: block;
 }
 
+/*This code removes margin and padding from the entire document.*/
 * {
     margin: 0;
     padding: 0;
 }
 
+/*This code formats the header with text justifications, color, and spacing.*/
 header {
     background-color: rgb(51, 51, 51);
     text-align: center;
     width: 55em;
 }
 
+/*This code formats the header with appropriate image spacing.*/
 header img {
       height: 4em;
     }
 
+/*This code formats the navigation list to be aligned with the left of the page and sets the background color.*/
 nav {
     float: left;
     width: 15em;
     background-color: rgb(51, 51, 51);
 }
 
+/*This code formats the navigation list with a font types, spacing, and margins.*/
 nav ul {
     font-family: Century Gothic, sans-serif;
     font-size: 0.7em;
@@ -46,15 +52,18 @@ nav ul {
     margin-bottom: 1.2em;
 }
 
+/*This code formats the navigation list with color and removed the hyperlink format.*/
 nav a {
     text-decoration: none;
     color: rgb(212, 212, 212);
 }
 
+/*This code formats the navigation list with a specific color when hovered over.*/
 nav a:hover {
     color: white;
 }
 
+/*This code generally formats the speech section with color and font types.*/
 #speech {
     background-color: rgb(212, 212, 212);
     width: 40em;
@@ -62,6 +71,7 @@ nav a:hover {
     font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
 }
 
+/*This code formats the first header in the speech section to be aligned and have a certain color.*/
 #speech h1 {
     background-color: rgb(51, 51, 51);
     color: rgb(212, 212, 212);
@@ -69,6 +79,7 @@ nav a:hover {
     text-align: center;
     }
 
+/*This code generally formats the speech section.*/
 #speech p {
     font-size: 0.9em;
     margin-left: 1em;
@@ -77,6 +88,7 @@ nav a:hover {
     margin-top: 1em;
     }
 
+/*This code makes the first letter in the speech section have a drop-case border.*/
 #speech p:first-of-type:first-letter {
     float: left;
     font-size: 4em;
@@ -88,10 +100,12 @@ nav a:hover {
     border-bottom: 0.002em solid black;
     }
 
+/*This code makes the first line in the speech section be all uppercase.*/
 #speech p:first-of-type:first-line {
     text-transform: uppercase;
     }
 
+/*This code aligns the individual images in the speech section and sets an irregular border for text.*/
     #speech img{
         display: inline-block;
         margin-right: none;
