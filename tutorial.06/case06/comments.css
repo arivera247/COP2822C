@@ -39,3 +39,15 @@
 #commentsFS textarea {
   height: 150px;
 }
+
+#commentsFS button[type="submit"] {
+  display: block;
+  clear: both;
+  width: 200px;
+  height: 30px;
+  margin: 5px auto;
+}
+
+input:focus {
+  background-color: rgb(225, 225, 240);
+}
