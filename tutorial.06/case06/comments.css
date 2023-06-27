@@ -28,3 +28,14 @@
   margin: 5px 0;
 }
 
+#commentsFS input[type="text"], #commentsFS textarea {
+  display: block;
+  float: right;
+  font-size: 0.9em;
+  width: 55%;
+  margin: 0 10px;
+}
+
+#commentsFS textarea {
+  height: 150px;
+}
