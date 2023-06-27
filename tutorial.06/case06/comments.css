@@ -28,7 +28,7 @@
   margin: 5px 0;
 }
 
-#commentsFS input[type="text"], #commentsFS textarea {
+#commentsFS input, #commentsFS textarea {
   display: block;
   float: right;
   font-size: 0.9em;
