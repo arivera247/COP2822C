@@ -51,3 +51,19 @@
 input:focus {
   background-color: rgb(225, 225, 240);
 }
+
+input:focus:valid {
+  background-color: rgb(225, 240, 225);
+  background-image: url(go.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+}
+
+input:focus:invalid {
+  background-color: rgb(240, 225, 225);
+  background-image: url(stop.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+}
