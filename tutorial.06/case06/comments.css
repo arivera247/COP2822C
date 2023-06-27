@@ -4,11 +4,17 @@
    Case Problem 1
 
    Comment Form Style Sheet
-   Author: 
-   Date:   
+   Author: Alex Rivera
+   Date: 6-26-2023
 
    Filename:         comments.css
    Supporting Files: go.png, stop.png
 
 */
 
+#commentsFS {
+  background-color: rgb(245, 245, 245);
+  margin: 15px auto;
+  padding: 5px;
+  width: 90%;
+}
