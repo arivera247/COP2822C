@@ -95,8 +95,15 @@
          <h2>Post Your Comments</h2>
          <form action="www.sblogger/cgi-bin/subcomments" method="post"><!-- All form elements belong here -->
             <fieldset name="commentsFS" id="commentsFS"><!-- All form fields belong here -->
-               <label for="username">Username:</label>
+               <label for="username">Username</label>
                <input type="text" id="username" name="username" required title="Supply your username">
+               <label for="email">E-Mail</label>
+               <input type="email" id="email" name="email" required title="Supply a valid e-mail address">
+               <label for="password">Password</label>
+               <input type="password" id="password" name="password" required title="You must provide your password">
+               <label for="commentBox">Comment<br>(500 character limit):</label>
+               <textarea id="commentBox" name="commentBox" maxlength="500"></textarea>
+               <button type="submit">Submit Comment</button>
             </fieldset>
          </form>
 
